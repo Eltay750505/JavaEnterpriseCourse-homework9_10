@@ -22,6 +22,7 @@
     <mysql-connector-java.version>8.0.18</mysql-connector-java.version>
     <hikari_cp.version>3.4.1</hikari_cp.version>
     <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
+    <jstl-api.version>1.2</jstl-api.version>
   </properties>
 
   <dependencies>
@@ -61,10 +62,15 @@
       <artifactId>HikariCP</artifactId>
       <version>${hikari_cp.version}</version>
     </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>${jstl-api.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
-    <finalName>JavaEnterpriseCourse-homework9_10</finalName>
+    <finalName>jd2_homework9_10</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
